@@ -190,6 +190,24 @@ img {
 }
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-
-
+@media screen and (max-width: 320px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
 /* For large devices */
+@media screen and (min-width: 1024px) {
+  .gallery__card {
+    width: 220px;
+    height: 290px;
+  }
+  .gallery__thumbnail {
+    width: 65px;
+    height: 65px;
+  }
+  .gallery-cards,
+  .gallery-thumbs {
+    width: 280px;
+  }
+}
